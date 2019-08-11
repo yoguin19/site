@@ -1,0 +1,89 @@
+body {
+  font: 15px/1.5 Arial;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header{
+  background-color: #35424a;
+  border-bottom: #111 3px solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+header #branding {
+  float: left;
+  color: #FF4500;
+}
+
+header #branding h1 {
+  margin:0;
+}
+
+header .highlight, header .current a {
+  color:#e8491d;
+  font-weight:bold;
+}
+
+/*Show Case*/
+
+#showcase {
+  height: 400px;
+  background: url(../img/showcase.jpg) no-repeat;
+  text-align: center;
+  color: #111;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 16px;
+}
+
+/*Boxes*/
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
